@@ -1,0 +1,7 @@
+---
+ - name: Ping Servers
+   win_ping:
+ - name: Run IP config
+   raw: ipconfig
+   register: ipconfig
+ - debug: var=ipconfig
