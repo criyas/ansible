@@ -1,5 +1,10 @@
 ---
 - hosts: all
   tasks:
+<<<<<<< HEAD
           - name: ping
             win_ping:
+=======
+    - name: ping
+win_ping:
+>>>>>>> 73844d3500cf677dfe0e48bcf62a2c673c1032ec
