@@ -1,0 +1,4 @@
+---
+- name: Reboot server when its required
+  win_reboot:
+          reboot: yes

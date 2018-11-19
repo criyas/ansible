@@ -1,0 +1,2 @@
+# Defines whether to reboot after updates or not
+ win_updates_reboot: true 
