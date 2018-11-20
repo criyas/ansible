@@ -1,0 +1,6 @@
+ansible_ssh_user: sysop 
+ansible_ssh_pass: ITInsead2018
+ansible_ssh_port: 5985
+ansible_connection: winrm
+ansible_winrm_transport: ntlm
+
