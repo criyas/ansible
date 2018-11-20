@@ -1,0 +1,6 @@
+---
+- hosts: all
+  vars_files:
+  tasks:
+    - name: ping
+      win_ping:

@@ -1,0 +1,6 @@
+ansible_ssh_user: "{{ vault_ssh_user }}"
+ansible_ssh_pass: "{{ vault_ssh_password }}"
+ansible_ssh_port: "{{ vault_ssh_port }}"
+ansible_connection: "{{ vault_ssh_connection }}"
+ansible_winrm_transport: "{{ vault_ssh_transport }}"
+
