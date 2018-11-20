@@ -2,8 +2,7 @@
 - hosts: all
   gather_facts: False
   vars_files:
-          - group_vars/server.yml
-          - group_vars/server.yml
+          - group_test/all
   tasks:
-          - name: ping server
+          - name: ping
             win_ping:
