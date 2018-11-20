@@ -1,8 +1,9 @@
 ---
 - hosts: all
+  gather_facts: False
   vars_files:
           - group_vars/server.yml
-          - group_vars/secret.yml
+          - group_vars/server.yml
   tasks:
-    - name: ping
-      win_ping:
+          - name: ping server
+            win_ping:
